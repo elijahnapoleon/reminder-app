@@ -8,7 +8,7 @@ router.use(bodyParser.json());
 router.use(cors());
 
 let users = [];
-
+ 
 router.get("/users", (req,res) => {
     res.json(users);
 });
